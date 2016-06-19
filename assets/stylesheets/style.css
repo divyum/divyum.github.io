@@ -1,0 +1,117 @@
+body {
+  background-color: #191919;
+  color: #aaa;
+}
+
+#header:after {
+  content: "";
+  display: block;
+  border: 0.1em solid #e0e0e0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+  -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+  -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.heading {
+  display: inline-block;
+}
+
+#container {
+  max-width: 60%;
+  margin: 0 auto;
+  min-width: 800px;
+}
+
+#name a {
+  font-size: 40px;
+  font-family: 'Palatino', sans-serif;
+  color: #A55D35;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Palatino', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 120%;
+  text-align: left;
+}
+
+p a {
+  font-family: 'Palatino', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2CD597;
+  display: inline;
+}
+
+p a:hover {
+  border-bottom: white 1px dashed;
+}
+
+#content h1, h2, h3 {
+  font-family: "Palatino", sans-serif;
+  color: #666633;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav ul.tabs li {
+  display: inline-block;
+}
+
+li.current {
+  border-bottom: #aaa 1.5px solid;
+}
+
+#nav{
+  padding-left: 180px;
+  text-align: right;
+}
+
+#nav li {
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+  color: #2CD597;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+#nav li:hover {
+  color: #aaa;
+  cursor: pointer; cursor: hand;
+}
+
+#about_tab {
+  padding-top: 100px;
+  max-width: 80%;
+}
+
+#projects_tab {
+  padding-top: 150px;
+  padding-right: 100px;
+}
+
+#blog_tab {
+  padding-top: 150px;
+  padding-right: 150px;
+}
+
+.tab-content.current{
+  display: block;
+}
+
+.tab-content{
+  display: none;
+  padding: 10px;
+}
+
